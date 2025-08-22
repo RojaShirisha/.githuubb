@@ -1,16 +1,8 @@
----
-name: Deploy Roja App
-description: Template for deploying a Node.js app
-categories: [Deployment]
----
-
-name: Deploy
-
-on: [push]
-
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - run: echo "Deploying Roja App..."
+{
+    "name": "Octo Organization Workflow",
+    "description": "Template for deploying a Node.js app",
+    "iconName": "example-icon",
+    "categories": [
+        "Deployment"
+    ]
+}
